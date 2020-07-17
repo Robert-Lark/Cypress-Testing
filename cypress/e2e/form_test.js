@@ -21,5 +21,7 @@ describe("Form Test", () => {
 			.should('have.checked', true)
 		cy.get('button')
 			.should('not.be.disabled')
+		cy.get('img')
+		.should('rotate')
 	});
 });
